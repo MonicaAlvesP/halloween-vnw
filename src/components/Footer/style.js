@@ -12,6 +12,14 @@ export const Container = styled.footer`
     margin-top: 1rem;
     font-size: var(--font-Size-Body);
   }
+
+  @media (max-width: 600px) {
+    padding: 1rem;
+
+    p {
+      font-size: 0.7rem;
+    }
+  }
 `;
 
 export const SocialLinks = styled.ul`

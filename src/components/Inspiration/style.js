@@ -19,6 +19,17 @@ export const Container = styled.section`
     width: 50%;
     text-align: center;
   }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: var(--font-Size-Heading);
+    }
+
+    p {
+      width: 80%;
+      font-size: 1rem;
+    }
+  }
 `;
 
 export const List = styled.ul`
@@ -40,6 +51,20 @@ export const List = styled.ul`
 
     img {
       width: 4rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    height: 90vh;
+    gap: 1rem;
+
+    li {
+      width: 40vw;
+      
+      span {
+        font-size: 0.6rem;
+        text-align: center;
+      }
     }
   }
 `;
@@ -71,5 +96,24 @@ export const Box = styled.article`
   
   span {
     font-size: var(--font-Size-Body);
+  }
+
+  @media (max-width: 768px) {
+    height: auto;
+    padding: 1rem;
+    align-items: center;
+
+    h3 {
+      font-size: 1.3rem;
+
+      img {
+        width: 2rem;
+      }
+    }
+
+    span {
+      font-size: 0.9rem;
+      text-align: center;
+    }
   }
 `;
