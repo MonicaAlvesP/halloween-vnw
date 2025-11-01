@@ -73,6 +73,14 @@ export const FormLabel = styled.label`
   svg {
     stroke: var(--primary-color);
   }
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
 `;
 
 export const FormInput = styled.input`

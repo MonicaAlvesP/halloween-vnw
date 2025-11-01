@@ -17,7 +17,7 @@ export const Container = styled.footer`
     padding: 1rem;
 
     p {
-      font-size: 0.7rem;
+      font-size: 0.6rem;
     }
   }
 `;

@@ -3,7 +3,7 @@ import backgroundImage from "../../assets/img/background-header.png";
 
 export const Container = styled.header`
   width: 100%;
-  height: 100vh;
+  height: 130vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,12 +34,12 @@ export const Container = styled.header`
       }
 
       h3 {
-        font-size: var(--font-Size-Heading);
+        font-size: var(--font-Size-Body);
         letter-spacing: 0.5rem;
       }
 
       p {
-        font-size: var(--font-Size-Body);
+        font-size: 1rem;
         text-align: center;
       }
   }
