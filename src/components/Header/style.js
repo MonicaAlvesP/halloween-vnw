@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import backgroundImage from "../../assets/img/background-header.png";
 
 export const Container = styled.header`
   width: 100%;
@@ -8,7 +9,7 @@ export const Container = styled.header`
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  background-image: linear-gradient(to bottom, rgba(30, 0, 30, 0.5), rgba(0, 0, 0, 0.6)), url('/src/assets/img/background-header.png');
+  background-image: linear-gradient(to bottom, rgba(30, 0, 30, 0.5), rgba(0, 0, 0, 0.6)), url(${backgroundImage});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
