@@ -1,16 +1,100 @@
-# React + Vite
+# 🎃 Halloween Party 2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Halloween Party Banner](https://img.shields.io/badge/Halloween-Party_2025-F06E42?style=for-the-badge&logo=ghost&logoColor=white)
+![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Styled Components](https://img.shields.io/badge/Styled_Components-6.1.13-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
-Currently, two official plugins are available:
+Este projeto foi desenvolvido como parte de um desafio proposto pelos professores da **Vai Na Web**, com o objetivo de praticar conceitos de **React** e **Styled Components** enquanto nos divertimos criando uma landing page temática de Halloween! 👻
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A aplicação apresenta uma página completa para uma festa de Halloween, com seções de detalhes do evento, inspirações de fantasias e um formulário de confirmação de presença.
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** - Biblioteca JavaScript para construção de interfaces
+- **Vite** - Build tool e dev server extremamente rápido
+- **Styled Components** - Estilização de componentes com CSS-in-JS
+- **Lucide React** - Biblioteca de ícones modernos
+- **React Router** - Biblioteca para navegação (instalada para implementações futuras)
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades Atuais
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Interface responsiva e moderna
+- ✅ Design temático de Halloween com gradientes e animações
+- ✅ Seção Header com chamada principal
+- ✅ Seção de detalhes do evento (data, hora, local, dress code)
+- ✅ Galeria de inspirações de fantasias
+- ✅ Formulário de confirmação de presença
+- ✅ Footer com informações de contato
+
+## 🔮 Implementações Futuras
+
+- 🔜 **Navegação funcional**: Adicionar rotas e encaminhamento ao clicar nos botões. O React Router já está instalado no projeto, falta apenas implementar as rotas e a navegação entre os blocos ao clicar no botão.
+
+## 🛠️ Como Executar o Projeto
+
+### Pré-requisitos
+
+- Node.js instalado (versão 16 ou superior)
+- npm ou yarn
+
+### Instalação
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/MonicaAlvesP/halloween-vnw.git
+```
+
+2. Entre na pasta do projeto:
+```bash
+cd halloween-vnw
+```
+
+3. Instale as dependências:
+```bash
+npm install
+```
+
+4. Execute o projeto em modo de desenvolvimento:
+```bash
+npm run dev
+```
+
+5. Abra no navegador:
+```
+http://localhost:5173
+```
+
+## 📦 Estrutura do Projeto
+
+```
+halloween-vnw/
+├── src/
+│   ├── components/
+│   │   ├── Header/          # Cabeçalho com chamada principal
+│   │   ├── Details/         # Detalhes do evento
+│   │   ├── Inspiration/     # Galeria de inspirações
+│   │   ├── Form/            # Formulário de confirmação
+│   │   └── Footer/          # Rodapé da página
+│   ├── assets/
+│   │   ├── img/             # Imagens do projeto
+│   │   └── icons/           # Ícones personalizados
+│   ├── App.jsx              # Componente principal
+│   ├── GlobalStyle.js       # Estilos globais
+│   └── main.jsx             # Ponto de entrada da aplicação
+├── public/
+├── package.json
+└── README.md
+```
+
+## 📝 Fontes Utilizadas
+
+- **Creepster** (Google Fonts) - Para títulos temáticos
+- **Inter** (Google Fonts) - Para textos e corpo
+
+## 👩‍💻 Desenvolvido por
+
+
+## 👩‍💻 Desenvolvedora
+<img src="https://github.com/MonicaAlvesP.png" width="96" height="96" style="border-radius:50%;" alt="Foto de Mônica Alves" /><br/>
+[GitHub](https://github.com/MonicaAlvesP) • [Portfolio](https://portifolio-woad-phi.vercel.app/)<br/>
+Feito com 💜.

@@ -15,6 +15,19 @@ export const Container = styled.main`
     font-size: var(--font-Size-Body);
     margin: 2rem 0;
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+
+    h2 {
+      font-size: var(--font-Size-Heading);
+    }
+
+    p {
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
 `;
 
 export const FormField = styled.form`
@@ -29,6 +42,14 @@ export const FormField = styled.form`
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 4rem;
+
+  @media (max-width: 768px) {
+    width: 90%;
+
+    button {
+      font-size: 0.6rem;
+    }
+  }
 `;
 
 export const FormGroup = styled.div`
@@ -36,6 +57,10 @@ export const FormGroup = styled.div`
   flex-direction: column;
   width: 100%;
   gap: 0.8rem;
+
+  @media (max-width: 768px) {
+    width: 80vw;
+  }
 `;
 
 export const FormLabel = styled.label`
@@ -76,32 +101,5 @@ export const FormSelect = styled.select`
   option {
     color: var(--text-body);
     background-color: var(--background-color);
-  }
-`;
-
-export const SocialLinks = styled.section`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 4rem;
-  
-  p {
-    font-size: var(--font-Size-Body);
-  }
-
-  ul {
-    display: flex;
-    gap: 1.5rem;
-  }
-
-  svg {
-    stroke: var(--primary-color);
-    width: 2rem;
-    height: 2rem;
-
-    &:hover {
-      stroke: var(--secondary-color);
-    }
   }
 `;

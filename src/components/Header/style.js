@@ -26,6 +26,22 @@ export const Container = styled.header`
     font-size: var(--font-Size-Heading);
     font-weight: 200;
   }
+
+  @media (max-width: 768px) {
+      h1 {
+        font-size: var(--font-Size-Subtitle);
+      }
+
+      h3 {
+        font-size: var(--font-Size-Heading);
+        letter-spacing: 0.5rem;
+      }
+
+      p {
+        font-size: var(--font-Size-Body);
+        text-align: center;
+      }
+  }
 `
 
 export const Actions = styled.section`
@@ -34,5 +50,14 @@ export const Actions = styled.section`
 
   button {
     font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 90%;
+
+    button {
+      padding: 0.4rem 1rem;
+    }
   }
 `
