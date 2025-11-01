@@ -26,7 +26,7 @@ export const Container = styled.div`
 
 export const List = styled.ul`
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   width: 100%;
   overflow-x: auto;
   gap: 1.5rem;
@@ -82,7 +82,11 @@ li {
     li {
       min-width: 60vw;
       height: auto;
-      padding: 1.5rem 0;
+      padding: 1.2rem 0;
+
+      h4 {
+        font-size: 1rem;
+      }
     }
   }
 `;

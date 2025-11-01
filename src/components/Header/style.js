@@ -9,7 +9,7 @@ export const Container = styled.header`
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  background-image: linear-gradient(to bottom, rgba(30, 0, 30, 0.5), rgba(0, 0, 0, 0.6)), url(${backgroundImage});
+  background-image: linear-gradient(to bottom, rgba(30, 0, 30, 0.2), rgba(0, 0, 0, 0.8)), url(${backgroundImage});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -48,10 +48,6 @@ export const Container = styled.header`
 export const Actions = styled.section`
   display: flex;
   gap: 1rem;
-
-  button {
-    font-weight: bold;
-  }
 
   @media (max-width: 768px) {
     flex-direction: column;

@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 :root {
-  --background-color: #121214;
+  --background-color: #000000ff;
   --background-color-inspiration: #402659;
   --background-card: #211E1C;
   --primary-color: #F06E42;
@@ -41,6 +41,7 @@ export const GlobalStyle = createGlobalStyle`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.6);
   }
 
   h3, h4, h5, h6 {
