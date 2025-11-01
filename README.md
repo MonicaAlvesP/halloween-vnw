@@ -91,9 +91,6 @@ halloween-vnw/
 - **Creepster** (Google Fonts) - Para títulos temáticos
 - **Inter** (Google Fonts) - Para textos e corpo
 
-## 👩‍💻 Desenvolvido por
-
-
 ## 👩‍💻 Desenvolvedora
 <img src="https://github.com/MonicaAlvesP.png" width="96" height="96" style="border-radius:50%;" alt="Foto de Mônica Alves" /><br/>
 [GitHub](https://github.com/MonicaAlvesP) • [Portfolio](https://portifolio-woad-phi.vercel.app/)<br/>
