@@ -6,6 +6,9 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   background-color: var(--background-color-inspiration);
+  box-shadow: 
+    inset 0 10px 80px rgba(0, 0, 0, 0.5),
+    inset 0 -10px 80px rgba(0, 0, 0, 0.5);
   height: auto;
   gap: 5rem;
 
